@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
 
 connection.connect((err) => {
     if (err) {
-        console.error('Erro ao conectar com o MySQL:', err);
+        console.error('Erro ao conectar sçakda com o MySQL:', err);
         return;
     }
     console.log('✅ Conectado ao MySQL no Aiven Cloud');
