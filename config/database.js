@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     password: 'CLICK_TO:REVEAL_PASSWORD', // Você precisa revelar e copiar a senha real
     database: 'defaultdb',
     ssl: {
-        rejectUnauthorized: true
+        rejectUnauthorized: false
     }
 });
 
